@@ -42,7 +42,6 @@ export default function App() {
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-          <span className="navbar-badge">Powered by Gemini</span>
           {view !== 'analyzer' && (
             <button className="btn btn-primary" style={{ padding: '0.5rem 1.25rem', fontSize: '0.85rem' }} onClick={() => goTo('analyzer')}>
               Analyze Resume

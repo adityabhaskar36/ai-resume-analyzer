@@ -59,14 +59,6 @@ export default function LandingPage({ onStart }) {
           <button id="get-started-btn" className="btn btn-primary btn-lg" onClick={onStart}>
             🚀 Get Started — It's Free
           </button>
-          <a
-            href="https://aistudio.google.com/app/apikey"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-outline btn-lg"
-          >
-            Get API Key
-          </a>
         </div>
 
         {/* Stats row */}
