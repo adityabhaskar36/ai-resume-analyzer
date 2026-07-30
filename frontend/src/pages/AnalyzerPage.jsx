@@ -1,7 +1,6 @@
 import { useState, useCallback } from 'react'
 import LoadingOverlay from '../components/LoadingOverlay'
-
-const API_BASE = 'http://localhost:8000/api'
+const API_BASE = import.meta.env.VITE_APP_API_URL || 'http://localhost:8000/api'
 
 export default function AnalyzerPage({ onResults }) {
   const [file, setFile] = useState(null)
